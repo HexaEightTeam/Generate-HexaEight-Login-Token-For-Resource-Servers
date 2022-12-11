@@ -88,9 +88,9 @@ Scan the Below QRCode using HexaEight Resource Identity to Authorize This Machin
 
 
 
-                                                     If you are unable to Scan the above QR Code, Paste the below URL in any browser and
-                                                 Scan the QR Code Using HexaEight Resource Identity Token available in HexaEight Authenticator
-                                                                             Mobile App To Authorize This Machine
+If you are unable to Scan the above QR Code, Paste the below URL in any browser and
+Scan the QR Code Using HexaEight Resource Identity Token available in HexaEight Authenticator
+Mobile App To Authorize This Machine
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=Hexa8MTOKN|BEC748E
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-                                                  Press Any Key Once QR Code Has Been Authorized Using HexaEight Authenticator Mobile App...
+Press Any Key Once QR Code Has Been Authorized Using HexaEight Authenticator Mobile App...
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,8 +134,8 @@ HEXA8_APIKEY=<HexaEight Subscription API Key>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-                                                                        API Keys can be subscribed using the below URL
-                                                      https://rapidapi.com/hexaeight-hexaeight-default/api/hexaeight-sso-platform/pricing
+API Keys can be subscribed using the below URL
+https://rapidapi.com/hexaeight-hexaeight-default/api/hexaeight-sso-platform/pricing
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
