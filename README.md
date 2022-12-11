@@ -15,4 +15,6 @@ Use the links below to Download the Tool associated with your Platform.
 
 Run The tool on the Machine where you need to generate a Login Token.  
 
-Note: This tool has an option to generate Enhanced Security Tokens (EST).  Enhanced Security Tokens option in simple terms means you are generating a login token and a password which is locked to the machine your are running this tool.  If you are planning to run multiple resource servers using the same login token and password, DO NOT simply choose NO when you are prompted with the question.
+### Note: This tool has an option to generate Enhanced Security Tokens (EST).  
+
+**Enhanced Security Tokens option in simple terms means you are generating a login token and a password which is locked to the machine your are running this tool.  If you are planning to run multiple resource servers using the same login token and password, DO NOT simply choose NO when you are prompted with the question**
