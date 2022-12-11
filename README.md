@@ -24,12 +24,12 @@ Run The tool on the Machine where you need to generate a Login Token.
                                                                           This Tool Generates Resource Server Tokens
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Enter Resource Name : xxxxxxxxx.xxx.xxx
+Enter Resource Name : myresource.mydomain.com
 Generate Enhanced Security Token (EST)? [Yes/No] Yes
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Scan the Below QRCode using HexaEight Resource Identity to Authorize This Machine Token
@@ -92,16 +92,52 @@ Scan the Below QRCode using HexaEight Resource Identity to Authorize This Machin
                                                  Scan the QR Code Using HexaEight Resource Identity Token available in HexaEight Authenticator
                                                                              Mobile App To Authorize This Machine
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=Hexa8MTOKN|BEC748E37951B38CA29A35E913D0E8903A9F0E44264A0DF1E2A4623788B0F6238C9CDFBA2DACD9D9FCA7E2A380E42AF713B69C736FA9F860353EE5247CC64CBE
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
                                                   Press Any Key Once QR Code Has Been Authorized Using HexaEight Authenticator Mobile App...
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                                              Resource Server Login Token Details
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Note: Enhanced Security Tokens will work only on this Machine for the Current Logged in User Account.
+Set the following Environment Variables so that HexaEight JWT Library SDK
+can capture and load these values at Runtime
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HEXA8_RESOURCENAME=myresource.mydomain.com
+
+HEXA8_LOGINTOKEN=MgCYWrpe26B/CDJOu1NZZBsY0VXbw/U5LH6RPezfwpR9t2BMy8oW2Fjxx4huuhOWOaEAXocFK+.........................
+
+HEXA8_SECRET=RsTcwD1zkm(jk!012kkakk2$FG
+
+HEXA8_EST=True
+
+HEXA8_APIKEY=<HexaEight Subscription API Key>
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                                        API Keys can be subscribed using the below URL
+                                                      https://rapidapi.com/hexaeight-hexaeight-default/api/hexaeight-sso-platform/pricing
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
