@@ -29,6 +29,7 @@ This Tool Generates Resource Server Tokens
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Enter Resource Name : myresource.mydomain.com
+
 Generate Enhanced Security Token (EST)? [Yes/No] Yes
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -116,6 +117,7 @@ Resource Server Login Token Details
 
 
 Note: Enhanced Security Tokens will work only on this Machine for the Current Logged in User Account.
+
 Set the following Environment Variables so that HexaEight JWT Library SDK
 can capture and load these values at Runtime
 
